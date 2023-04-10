@@ -34,7 +34,7 @@ public static class Bootstrapper
     private static void AddContext(IServiceCollection services, IConfiguration configuration)
     {
         var versaoServidor = new MySqlServerVersion(new Version(8, 0, 32));
-        var connectionString = configuration.GetConnectionString("Conexao");
+        var connectionString = configuration.GetConexaoCompleta();
 
         services.AddDbContext<MeuLivroDeReceitasContext>(options =>
         {

@@ -9,7 +9,7 @@ using MeuLivroDeReceitas.Exceptions.ExceptionsBase;
 
 namespace MeuLivroDeReceitas.Application.UseCases.Usuario.Registrar;
 
-public class RegistrarUsuarioUseCase
+public class RegistrarUsuarioUseCase : IRegistrarUsuarioUseCase
 {
     private readonly IUsuarioReadOnlyRepositorio _repositorioReadOnlyUsuario;
     private readonly IUsuarioWriteOnlyRepositorio _repositorioUsuario;
