@@ -297,6 +297,12 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj"
+              },
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj"
+              },
               "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\MeuLivroDeReceitas.Comunicacao.csproj": {
                 "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\MeuLivroDeReceitas.Comunicacao.csproj"
               }
@@ -313,9 +319,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Bogus": {
               "target": "Package",
               "version": "[34.0.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
             }
           },
           "imports": [

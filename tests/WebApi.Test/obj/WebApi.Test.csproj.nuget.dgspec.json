@@ -4,14 +4,180 @@
     "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\WebApi.Test\\WebApi.Test.csproj": {}
   },
   "projects": {
-    "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\WebApi.Test\\WebApi.Test.csproj": {
+    "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\WebApi.Test\\WebApi.Test.csproj",
-        "projectName": "WebApi.Test",
-        "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\WebApi.Test\\WebApi.Test.csproj",
+        "projectUniqueName": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj",
+        "projectName": "MeuLivroDeReceitas.Api",
+        "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\WebApi.Test\\obj\\",
+        "outputPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj"
+              },
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\MeuLivroDeReceitas.Infra.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\MeuLivroDeReceitas.Infra.csproj"
+              },
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\MeuLivroDeReceitas.Comunicacao.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\MeuLivroDeReceitas.Comunicacao.csproj"
+              },
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj",
+        "projectName": "MeuLivroDeReceitas.Application",
+        "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj"
+              },
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\MeuLivroDeReceitas.Comunicacao.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\MeuLivroDeReceitas.Comunicacao.csproj"
+              },
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj",
+        "projectName": "MeuLivroDeReceitas.Domain",
+        "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +209,383 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\MeuLivroDeReceitas.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\MeuLivroDeReceitas.Infra.csproj",
+        "projectName": "MeuLivroDeReceitas.Infra",
+        "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\MeuLivroDeReceitas.Infra.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\MeuLivroDeReceitas.Comunicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\MeuLivroDeReceitas.Comunicacao.csproj",
+        "projectName": "MeuLivroDeReceitas.Comunicacao",
+        "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\MeuLivroDeReceitas.Comunicacao.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj",
+        "projectName": "MeuLivroDeReceitas.Exceptions",
+        "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\MeuLivroDeReceitas.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\UtilitarioTestes\\UtilitarioTestes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\UtilitarioTestes\\UtilitarioTestes.csproj",
+        "projectName": "UtilitarioTestes",
+        "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\UtilitarioTestes\\UtilitarioTestes.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\UtilitarioTestes\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Application\\MeuLivroDeReceitas.Application.csproj"
+              },
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Domain\\MeuLivroDeReceitas.Domain.csproj"
+              },
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\MeuLivroDeReceitas.Comunicacao.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Shared\\MeuLivroDeReceitas.Comunicacao\\MeuLivroDeReceitas.Comunicacao.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\WebApi.Test\\WebApi.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\WebApi.Test\\WebApi.Test.csproj",
+        "projectName": "WebApi.Test",
+        "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\WebApi.Test\\WebApi.Test.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\WebApi.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\src\\Backend\\MeuLivroDeReceitas.Api\\MeuLivroDeReceitas.Api.csproj"
+              },
+              "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\UtilitarioTestes\\UtilitarioTestes.csproj": {
+                "projectPath": "D:\\projetos\\curso-udemy-mercado-trabalho\\MeuLivroDeReceitas\\tests\\UtilitarioTestes\\UtilitarioTestes.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.5.0, )"
