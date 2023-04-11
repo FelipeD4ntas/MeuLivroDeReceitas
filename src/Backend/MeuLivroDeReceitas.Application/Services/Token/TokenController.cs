@@ -55,7 +55,7 @@ public class TokenController
 
     private SymmetricSecurityKey SymmetricKey()
     {
-        var symmetricKey = Convert.FromBase64String(_chaveDeSeguranca);
-        return new SymmetricSecurityKey(symmetricKey);
+        var symmetricKeyValue = Convert.FromBase64String(_chaveDeSeguranca);
+        return new SymmetricSecurityKey(symmetricKeyValue);
     }
 }
